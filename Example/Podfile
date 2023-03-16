@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'SQCategory_Example' do
+  pod 'SQCategory', :path => '../'
+
+  target 'SQCategory_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
