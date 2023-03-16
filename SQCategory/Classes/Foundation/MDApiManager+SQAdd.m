@@ -9,4 +9,10 @@
 
 @implementation MDApiManager (SQAdd)
 
+-(void)copyInPasteboard {
+    UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
+    pasteboard.string = self;
+}
+
+
 @end

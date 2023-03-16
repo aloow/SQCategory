@@ -10,6 +10,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface MDApiManager (SQAdd)
+// 添加到粘贴板
+-(void)copyInPasteboard;
 
 @end
 

@@ -1,0 +1,6 @@
+framework module Pods_SQCategory_Tests {
+  umbrella header "Pods-SQCategory_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

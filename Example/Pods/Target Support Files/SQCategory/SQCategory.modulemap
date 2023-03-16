@@ -1,0 +1,6 @@
+framework module SQCategory {
+  umbrella header "SQCategory-umbrella.h"
+
+  export *
+  module * { export * }
+}

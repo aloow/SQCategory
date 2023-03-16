@@ -1,0 +1,22 @@
+{
+  "name": "SQCategory",
+  "version": "0.1.0",
+  "summary": "A short description of SQCategory.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/aloow/SQCategory",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "aloow": "xuesq@pvc123.com"
+  },
+  "source": {
+    "git": "https://github.com/aloow/SQCategory.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "SQCategory/Classes/**/*"
+}

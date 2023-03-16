@@ -1,0 +1,16 @@
+PODS:
+  - SQCategory (0.1.0)
+
+DEPENDENCIES:
+  - SQCategory (from `../`)
+
+EXTERNAL SOURCES:
+  SQCategory:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SQCategory: 258afb957d05cfb6a04bfad81b0509a79b2d7a74
+
+PODFILE CHECKSUM: 1cf120a55bd17bdab66eebe66efbdc3451897e47
+
+COCOAPODS: 1.11.3
