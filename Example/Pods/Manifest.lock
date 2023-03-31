@@ -1,16 +1,41 @@
 PODS:
-  - SQCategory (0.1.0)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - Masonry (1.1.0)
+  - SQCategory (0.1.0):
+    - AFNetworking (~> 4.0)
+    - Masonry
 
 DEPENDENCIES:
   - SQCategory (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Masonry
 
 EXTERNAL SOURCES:
   SQCategory:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SQCategory: 258afb957d05cfb6a04bfad81b0509a79b2d7a74
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SQCategory: 5cabce3b1dc38ce9f8a2f3ce1260a8f1796bf5d0
 
 PODFILE CHECKSUM: 1cf120a55bd17bdab66eebe66efbdc3451897e47
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.12.0

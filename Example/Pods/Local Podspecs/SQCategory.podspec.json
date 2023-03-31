@@ -18,5 +18,13 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "SQCategory/Classes/**/*"
+  "source_files": "SQCategory/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 4.0"
+    ],
+    "Masonry": [
+
+    ]
+  }
 }

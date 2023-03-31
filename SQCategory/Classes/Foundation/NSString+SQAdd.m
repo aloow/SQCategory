@@ -1,18 +1,15 @@
 //
-//  MDApiManager+SQAdd.m
-//  Pods
+//  NSString+SQAdd.m
+//  SQCategory
 //
-//  Created by iMac on 2023/3/16.
+//  Created by iMac on 2023/3/30.
 //
 
-#import "MDApiManager+SQAdd.h"
+#import "NSString+SQAdd.h"
 
-@implementation MDApiManager (SQAdd)
-
+@implementation NSString (SQAdd)
 -(void)copyInPasteboard {
     UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
     pasteboard.string = self;
 }
-
-
 @end

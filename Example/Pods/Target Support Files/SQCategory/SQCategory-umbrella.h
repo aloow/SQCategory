@@ -10,8 +10,9 @@
 #endif
 #endif
 
-#import "MDApiManager+SQAdd.h"
+#import "NSString+SQAdd.h"
 #import "SQFoundation.h"
+#import "LKNetworkMonitorManager.h"
 #import "SQUIKit.h"
 
 FOUNDATION_EXPORT double SQCategoryVersionNumber;
